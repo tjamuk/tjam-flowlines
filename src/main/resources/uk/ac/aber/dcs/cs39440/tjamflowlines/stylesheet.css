@@ -1,0 +1,54 @@
+.button {
+    -fx-background-color: #674ea7ff;
+    -fx-background-radius: 50px;
+    -fx-font-family: "Segoe UI";
+    -fx-font-weight: 600;
+    /*-fx-border: none;*/
+    -fx-text-fill: white;
+    /*-fx-text-align: center;*/
+    /*-fx-text-decoration: none;*/
+    /*-fx-display: inline-block;*/
+    /*-Monotype Corsiva;*/
+}
+
+.button:hover {
+    -fx-background-color: #483576ff;
+}
+
+.circular-outline-button {
+    -fx-background-color: transparent;
+    -fx-border-color: white; /* Specify border color */
+    -fx-border-width: 2px; /* Specify border width */
+    -fx-border-radius: 100%; /* Make the button circular */
+    -fx-padding: 0px 0px; /* Specify padding inside the button */
+    -fx-text-fill: white; /* Specify text color */
+    -fx-font-family: "Segoe UI";
+    -fx-font-weight: 600;
+}
+
+.circular-outline-button:hover {
+    -fx-border-color: #b4a7d6ff; /* Specify border color */
+    -fx-text-fill: #b4a7d6ff; /* Specify text color */
+}
+
+.circular-outline-button-enabled {
+    -fx-border-color: #674ea7ff; /* Specify border color */
+    -fx-text-fill: #674ea7ff; /* Specify text color */
+    -fx-background-color: transparent;
+    -fx-border-width: 2px; /* Specify border width */
+    -fx-border-radius: 100%; /* Make the button circular */
+    -fx-padding: 0px 0px; /* Specify padding inside the button */
+    -fx-font-family: "Segoe UI";
+    -fx-font-weight: 600;
+}
+
+.circular-outline-button-enabled:hover {
+    -fx-background-color: transparent;
+}
+
+.label {
+    -fx-text-alignment: center;
+    -fx-font-family: "Segoe UI";
+    -fx-font-weight: 600;
+    -fx-text-fill: white;
+}
